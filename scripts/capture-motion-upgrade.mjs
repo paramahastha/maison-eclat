@@ -1,0 +1,10 @@
+import {chromium} from '@playwright/test';
+import {mkdir,writeFile} from 'node:fs/promises';
+const base=process.env.BASE_URL||'http://127.0.0.1:3002';const dir='docs/motion-upgrade/after';await mkdir(dir,{recursive:true});const browser=await chromium.launch({headless:false});const notes=[];
+for(const [width,height] of [[1440,900],[375,812],[768,1024],[1024,900],[1920,1080]]){
+ const page=await browser.newPage({viewport:{width,height},reducedMotion:'no-preference'});const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(base);await page.evaluate(()=>document.fonts.ready);await page.locator('.story-canvas-shell[data-ready=true]').waitFor();await page.waitForTimeout(1200);
+ for(const p of [0,.5,1]){await page.evaluate(p=>{const e=document.querySelector('#encounter');scrollTo({top:(e.offsetHeight-innerHeight)*p,behavior:'instant'})},p);await page.waitForTimeout(550);await page.screenshot({path:`${dir}/hero-${width}-${p}.png`});}
+ for(const id of ['origin','composition']){await page.locator(`#${id}`).scrollIntoViewIfNeeded();await page.waitForTimeout(650);await page.screenshot({path:`${dir}/${id}-${width}.png`});}
+ for(const p of [0,.5,1]){await page.evaluate(p=>{const e=document.querySelector('[data-scroll-gallery]');scrollTo({top:e.getBoundingClientRect().top+scrollY+Math.max(0,e.offsetHeight-innerHeight)*p,behavior:'instant'})},p);await page.waitForTimeout(900);await page.screenshot({path:`${dir}/gallery-${width}-${p}.png`});notes.push({width,p,selected:await page.locator('#collection').getAttribute('data-variant')});}
+ await page.locator('#ritual').scrollIntoViewIfNeeded();await page.waitForTimeout(600);await page.screenshot({path:`${dir}/ritual-${width}.png`});await page.locator('#invitation').scrollIntoViewIfNeeded();await page.waitForTimeout(600);await page.screenshot({path:`${dir}/invitation-${width}.png`});notes.push({width,errors});await page.close();
+}await browser.close();await writeFile('docs/motion-upgrade/capture-notes.json',JSON.stringify(notes,null,2));console.log('Motion states captured');

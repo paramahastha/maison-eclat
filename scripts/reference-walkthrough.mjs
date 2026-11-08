@@ -1,0 +1,17 @@
+import {chromium} from '@playwright/test';
+import {writeFile} from 'node:fs/promises';
+const dir='docs/reference-motion-study';const browser=await chromium.launch({headless:false});
+const ch=await browser.newPage({viewport:{width:1440,height:900}});
+await ch.goto('https://www.chanel.com/fr/parfums/bleu-de-chanel/les-fragrances/',{waitUntil:'domcontentloaded'});
+await ch.getByRole('button',{name:'ACCEPTER LES COOKIES STRICTEMENT NÉCESSAIRES',exact:true}).click({timeout:15000}).catch(e=>console.log('Chanel cookie:',e.message.slice(0,120)));
+await ch.waitForTimeout(1800);await ch.screenshot({path:`${dir}/02-chanel-hero.png`});
+await ch.getByRole('button',{name:'DÉCOUVRIR LES PARFUMS',exact:true}).click();await ch.waitForTimeout(1400);await ch.screenshot({path:`${dir}/03-chanel-discover.png`});
+console.log('CHANEL AFTER DISCOVER', (await ch.locator('body').innerText()).slice(0,7000));
+await writeFile(`${dir}/chanel-controls.json`,JSON.stringify(await ch.locator('button').evaluateAll(es=>es.map(e=>({text:e.innerText,label:e.getAttribute('aria-label'),rect:{y:e.getBoundingClientRect().y,h:e.getBoundingClientRect().height},visible:getComputedStyle(e).display!=='none'}))),null,2));
+const dg=await browser.newPage({viewport:{width:1440,height:900}});await dg.goto('https://beautytools.dolcegabbana.com/en-id/velvet/layering?utm_source=chatgpt.com',{waitUntil:'domcontentloaded'});
+await dg.getByText('Continue without Accepting',{exact:true}).click({timeout:15000});await dg.getByText('YOUR EXPERIENCE IS LOADING',{exact:true}).waitFor({state:'hidden',timeout:60000}).catch(e=>console.log('DG loading',e.message.slice(0,150)));
+await dg.waitForTimeout(1200);await dg.screenshot({path:`${dir}/04-dg-layering-start.png`});
+console.log('DG READY',(await dg.locator('body').innerText()).slice(0,10000));
+await writeFile(`${dir}/dg-ready-dom.html`,await dg.locator('body').innerHTML());
+await writeFile(`${dir}/dg-controls.json`,JSON.stringify(await dg.locator('button,a,[role=button],input').evaluateAll(es=>es.map(e=>({tag:e.tagName,text:e.innerText,label:e.getAttribute('aria-label'),href:e.getAttribute('href')}))),null,2));
+await browser.close();

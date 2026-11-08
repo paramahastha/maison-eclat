@@ -9,7 +9,7 @@ Project requirements are documented in the [product brief](docs/PRD.md). The lat
 Use Node.js 22 or newer and npm. Verified locally with Node 26.12.0 / npm 11.20.0. No API keys or paid services are required.
 
 ```sh
-cd /Users/macbookprom4/Projects/website/maison-eclat
+cd maison-eclat
 npm install
 npm run dev
 ```
@@ -97,10 +97,10 @@ Latest upgrade: [scroll recording](docs/motion-upgrade/scroll-story.webm), [QA a
 - With a production server running: `PRODUCTION=1 HEADLESS=false node scripts/measure-performance.mjs` records local loading metrics, instrumented WebGL frame delivery during scrolling and a constrained mobile simulation. Add `BASE_URL=http://127.0.0.1:3001` when using port 3001. A visible browser uses this Mac's M4 Metal GPU; the default headless browser used SwiftShader software rendering here.
 - Reports distinguish lab interaction durations from field INP/CWV. Mobile emulation is not a physical-device certification.
 
-## Deployment preparation
+## Deployment
 
 This is a standard Next.js App Router project suitable for Vercel or another Node-compatible Next.js host. Use `npm ci`, `npm run build`, then the host's Next.js runtime (or `npm run start`). No external database or environment secrets are needed.
 
-Set `SITE_URL` to the real HTTPS origin **at build time** when deploying so social image URLs resolve correctly. Local builds default to `http://localhost:3000`; no unowned public domain is invented. CI runs lint, typecheck, unit tests, asset validation, build and production E2E.
+The site was deployed to [maison-eclat-lime.vercel.app](https://maison-eclat-lime.vercel.app/) on Vercel. The first deployment was built without `SITE_URL`, so its social image metadata points to localhost. Set `SITE_URL=https://maison-eclat-lime.vercel.app` in the production environment, redeploy, and verify the Open Graph image URL. Local builds default to `http://localhost:3000`.
 
-The project has not been published. Public deployment remains a separate authorized action.
+CI is configured to run lint, typecheck, unit tests, asset validation, build and production E2E.

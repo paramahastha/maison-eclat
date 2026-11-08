@@ -1,8 +1,20 @@
+## README update — 2026-11-08
+
+- Updated local setup to use a portable project path and documented the existing Vercel deployment and outstanding `SITE_URL` configuration.
+- Validation: `git diff --check`; documentation-only change, application tests not rerun.
+- Next: configure `SITE_URL` on Vercel and verify social metadata after a redeploy.
+
 ## Repository housekeeping — 2026-11-08
 
 - Removed the retired master plan, ignored its root path, and updated active documentation references. Retained documented visual and test evidence.
 - Validation: `git diff --check` and repository status inspection; no application code changed.
 - Next: continue from the current handoff below.
+
+## Vercel deployment — 2026-11-08
+
+- Imported `paramahastha/maison-eclat` into the Vercel Hobby project `maison-eclat` and deployed commit `4bba08d` to production. GitHub app access was limited to the selected repository alongside its existing selection.
+- Vercel reported production deployment success. An unauthenticated `curl` returned HTTP 200 from https://maison-eclat-lime.vercel.app/ with the expected Maison Éclat title; the site was also opened in Chrome.
+- Open issue: `SITE_URL` was not configured for the first build, so social image metadata points to localhost. Vercel settings did not load in the browser during this session. Set `SITE_URL=https://maison-eclat-lime.vercel.app` for production and redeploy, then verify the Open Graph image URL.
 
 # Implementation log
 Updated: 2026-11-08 (Asia/Jakarta)

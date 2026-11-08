@@ -1,0 +1,29 @@
+[
+  {
+    "name": "desktop",
+    "sample": {
+      "fps": 119.99520019227839,
+      "seconds": 5.000199999988079
+    },
+    "offscreenFrames": 0,
+    "errors": []
+  },
+  {
+    "name": "phone",
+    "sample": {
+      "fps": 119.97360580650805,
+      "seconds": 5.0011000000089405
+    },
+    "offscreenFrames": 0,
+    "errors": []
+  },
+  {
+    "name": "no-float",
+    "sample": {
+      "fps": 117.36479056283115,
+      "seconds": 5.0015
+    },
+    "offscreenFrames": 41,
+    "errors": []
+  }
+]

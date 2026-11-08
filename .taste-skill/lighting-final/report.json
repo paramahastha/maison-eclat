@@ -1,0 +1,1969 @@
+{
+ "url": "http://localhost:3001/fragrances/santal-03",
+ "at": "2026-11-07T09:37:17.639Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.87,
+    0.92,
+    0.79
+   ],
+   "motion": {
+    "elements": 4,
+    "css": 1,
+    "transitions": 2,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 2046,
+     "screens": 2.3,
+     "words": 130,
+     "img": 3,
+     "video": 0,
+     "canvas": 1,
+     "svg": 0,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "santal-detail.webp",
+      "obsidian-live.webp",
+      "neroli-live.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Santal No. 03",
+     "words": 3,
+     "chars": 13,
+     "lines": 1,
+     "size": 100.8,
+     "vw": 7,
+     "font": "display",
+     "weight": 400,
+     "tracking": -0.045,
+     "leading": 0.96,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.34,
+     "top": 298,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Santal No. 03",
+     "words": 3,
+     "lines": 1,
+     "size": 100.8,
+     "font": "display"
+    },
+    "headings": [
+     {
+      "text": "Santal No. 03",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 100.8,
+      "vw": 7,
+      "font": "display",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.34,
+      "top": 298,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Warmth, held close.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "display",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.34,
+      "top": 468,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Cardamom & Fig leaf",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.34,
+      "top": 738,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Another atmosphere.",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 72,
+      "vw": 5,
+      "font": "display",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1197,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "NO. 01 Obsidian The quiet after dark.",
+      "words": 7,
+      "chars": 37,
+      "lines": 3,
+      "size": 38,
+      "vw": 2.6,
+      "font": "display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.1,
+      "top": 1395,
+      "mixedFonts": [
+       "display",
+       "body"
+      ],
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "NO. 02 Neroli A little closer to light.",
+      "words": 8,
+      "chars": 39,
+      "lines": 3,
+      "size": 38,
+      "vw": 2.6,
+      "font": "display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.09,
+      "top": 1395,
+      "mixedFonts": [
+       "display",
+       "body"
+      ],
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "MAISON ÉCLAT",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 172.8,
+      "vw": 12,
+      "font": "display",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1751,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 3,
+     "over2Lines": 2,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 2
+    },
+    "type": {
+     "families": [
+      {
+       "family": "body",
+       "share": 0.86,
+       "mono": false
+      },
+      {
+       "family": "display",
+       "share": 0.14,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      13,
+      14,
+      16,
+      20,
+      22,
+      24,
+      25,
+      32,
+      36,
+      38,
+      72,
+      101,
+      173
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "body",
+      "size": 16,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15
+     },
+     "measureChars": 61,
+     "max": {
+      "size": 172.8,
+      "vw": 12,
+      "font": "display",
+      "text": "MAISON ÉCLAT"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 1,
+     "microLabelShare": 0.038,
+     "microSamples": [
+      "COLLECTION 01 · EAU DE PARFUM"
+     ],
+     "upperShare": 0.09,
+     "centerShare": 0.1,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "COLLECTION 01 · EAU DE PARFUM",
+      "above": "Santal No. 03",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 249
+     }
+    ],
+    "numbered": [
+     {
+      "text": "No. 03",
+      "size": 24,
+      "top": 409
+     },
+     {
+      "text": "01",
+      "size": 13,
+      "top": 670
+     },
+     {
+      "text": "02",
+      "size": 13,
+      "top": 670
+     },
+     {
+      "text": "03",
+      "size": 13,
+      "top": 670
+     },
+     {
+      "text": "NO. 01",
+      "size": 13,
+      "top": 1395
+     },
+     {
+      "text": "NO. 02",
+      "size": 13,
+      "top": 1395
+     }
+    ],
+    "color": {
+     "bodyBg": "#11120f",
+     "bodyBgHsl": {
+      "h": 80,
+      "s": 0.09,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#191c17",
+       "top": 0,
+       "hsl": {
+        "h": 96,
+        "s": 0.1,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#261c16",
+       "top": 250,
+       "hsl": {
+        "h": 23,
+        "s": 0.27,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#11120f",
+       "top": 1681,
+       "hsl": {
+        "h": 80,
+        "s": 0.09,
+        "l": 0.06
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f3efe6",
+       "share": 0.59
+      },
+      {
+       "color": "#b7b1a5",
+       "share": 0.38
+      },
+      {
+       "color": "#11120f",
+       "share": 0.02
+      },
+      {
+       "color": "#b79b68",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#f3efe6",
+      "hsl": {
+       "h": 42,
+       "s": 0.35,
+       "l": 0.93
+      },
+      "fg": "#11120f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 47,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.product-inspector → radial-gradient(47% 11% at 50% 83%, rgb(165, 94, 44) 0%, rgb(95, 55, 32) 40%, rgba(0, 0, 0, 0) 100%), radial-g"
+     ],
+     "gradientText": 0,
+     "hairlines": 2,
+     "hairlineSamples": [
+      "div.tab-list 490px",
+      "a.text-link 255px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.32
+     },
+     {
+      "type": "canvas",
+      "ratio": 0.32
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 108,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "display",
+     "body",
+     "body fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 2046,
+    "margins": {
+     "left": 72,
+     "right": 72
+    },
+    "sections": [
+     {
+      "sel": "div.product-grid",
+      "tag": "div",
+      "top": 209,
+      "height": 858,
+      "words": 84,
+      "media": 1,
+      "middle": 86,
+      "heading": {
+       "text": "Santal",
+       "size": 101,
+       "tag": "h1"
+      },
+      "left": 72,
+      "right": 167,
+      "textLeft": 236,
+      "textRight": 167,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#other-compositions.other-compositions",
+      "tag": "section",
+      "top": 1197,
+      "height": 384,
+      "words": 15,
+      "media": 2,
+      "middle": 292,
+      "heading": {
+       "text": "Obsidian",
+       "size": 38,
+       "tag": "span"
+      },
+      "left": 97,
+      "right": 312,
+      "textLeft": 336,
+      "textRight": 312,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 1681,
+      "height": 365,
+      "words": 15,
+      "media": 0,
+      "middle": 4,
+      "heading": {
+       "text": "MAISON ÉCLAT",
+       "size": 173,
+       "tag": "a"
+      },
+      "left": 72,
+      "right": 72,
+      "textLeft": 72,
+      "textRight": 72,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Santal No. 03",
+      "size": 101,
+      "top": 298,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 792,
+      "n": 4
+     },
+     {
+      "x": 72,
+      "n": 1
+     },
+     {
+      "x": 831,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 6,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.11,
+    "voidBox": {
+     "x": 240,
+     "y": 120,
+     "w": 1200,
+     "h": 120
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.88,
+    0.84
+   ],
+   "motion": {
+    "elements": 4,
+    "css": 1,
+    "transitions": 2,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1941,
+     "screens": 1.9,
+     "words": 130,
+     "img": 3,
+     "video": 0,
+     "canvas": 1,
+     "svg": 0,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "santal-detail.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Santal No. 03",
+     "words": 3,
+     "chars": 13,
+     "lines": 2,
+     "size": 80,
+     "vw": 10.4,
+     "font": "display",
+     "weight": 400,
+     "tracking": -0.045,
+     "leading": 0.96,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.41,
+     "top": 298,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Santal No. 03",
+     "words": 3,
+     "lines": 2,
+     "size": 80,
+     "font": "display"
+    },
+    "headings": [
+     {
+      "text": "Santal No. 03",
+      "words": 3,
+      "chars": 13,
+      "lines": 2,
+      "size": 80,
+      "vw": 10.4,
+      "font": "display",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.41,
+      "top": 298,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Warmth, held close.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "display",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.41,
+      "top": 448,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Cardamom & Fig leaf",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.41,
+      "top": 737,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Another atmosphere.",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "display",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1196,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "NO. 01 Obsidian The quiet after dark.",
+      "words": 7,
+      "chars": 37,
+      "lines": 3,
+      "size": 30,
+      "vw": 3.9,
+      "font": "display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 1376,
+      "mixedFonts": [
+       "display",
+       "body"
+      ],
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "NO. 02 Neroli A little closer to light.",
+      "words": 8,
+      "chars": 39,
+      "lines": 3,
+      "size": 30,
+      "vw": 3.9,
+      "font": "display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.16,
+      "top": 1376,
+      "mixedFonts": [
+       "display",
+       "body"
+      ],
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "MAISON ÉCLAT",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 92.2,
+      "vw": 12,
+      "font": "display",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1727,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 3,
+     "over2Lines": 2,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 2
+    },
+    "type": {
+     "families": [
+      {
+       "family": "body",
+       "share": 0.86,
+       "mono": false
+      },
+      {
+       "family": "display",
+       "share": 0.14,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      13,
+      14,
+      16,
+      20,
+      22,
+      24,
+      25,
+      26,
+      30,
+      32,
+      48,
+      80,
+      92
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "body",
+      "size": 16,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15
+     },
+     "measureChars": 39,
+     "max": {
+      "size": 92.2,
+      "vw": 12,
+      "font": "display",
+      "text": "MAISON ÉCLAT"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 1,
+     "microLabelShare": 0.038,
+     "microSamples": [
+      "COLLECTION 01 · EAU DE PARFUM"
+     ],
+     "upperShare": 0.09,
+     "centerShare": 0.1,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "COLLECTION 01 · EAU DE PARFUM",
+      "above": "Santal No. 03",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 249
+     }
+    ],
+    "numbered": [
+     {
+      "text": "No. 03",
+      "size": 24,
+      "top": 389
+     },
+     {
+      "text": "01",
+      "size": 13,
+      "top": 669
+     },
+     {
+      "text": "02",
+      "size": 13,
+      "top": 669
+     },
+     {
+      "text": "03",
+      "size": 13,
+      "top": 669
+     },
+     {
+      "text": "NO. 01",
+      "size": 13,
+      "top": 1376
+     },
+     {
+      "text": "NO. 02",
+      "size": 13,
+      "top": 1376
+     }
+    ],
+    "color": {
+     "bodyBg": "#11120f",
+     "bodyBgHsl": {
+      "h": 80,
+      "s": 0.09,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#191c17",
+       "top": 0,
+       "hsl": {
+        "h": 96,
+        "s": 0.1,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f3efe6",
+       "share": 0.59
+      },
+      {
+       "color": "#b7b1a5",
+       "share": 0.38
+      },
+      {
+       "color": "#11120f",
+       "share": 0.02
+      },
+      {
+       "color": "#b79b68",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#f3efe6",
+      "hsl": {
+       "h": 42,
+       "s": 0.35,
+       "l": 0.93
+      },
+      "fg": "#11120f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 47,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Reset view"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.product-inspector → radial-gradient(47% 11% at 50% 83%, rgb(165, 94, 44) 0%, rgb(95, 55, 32) 40%, rgba(0, 0, 0, 0) 100%), radial-g"
+     ],
+     "gradientText": 0,
+     "hairlines": 2,
+     "hairlineSamples": [
+      "div.tab-list 313px",
+      "a.text-link 255px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.24
+     },
+     {
+      "type": "canvas",
+      "ratio": 0.24
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 108,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "display",
+     "body",
+     "body fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 1941,
+    "margins": {
+     "left": 38,
+     "right": 38
+    },
+    "sections": [
+     {
+      "sel": "div.product-grid",
+      "tag": "div",
+      "top": 209,
+      "height": 857,
+      "words": 84,
+      "media": 1,
+      "middle": 35,
+      "heading": {
+       "text": "Santal",
+       "size": 80,
+       "tag": "h1"
+      },
+      "left": 38,
+      "right": 57,
+      "textLeft": 104,
+      "textRight": 57,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#other-compositions.other-compositions",
+      "tag": "section",
+      "top": 1196,
+      "height": 361,
+      "words": 15,
+      "media": 2,
+      "middle": 124,
+      "heading": {
+       "text": "Obsidian",
+       "size": 30,
+       "tag": "span"
+      },
+      "left": 53,
+      "right": 103,
+      "textLeft": 175,
+      "textRight": 103,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 1657,
+      "height": 284,
+      "words": 15,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "MAISON ÉCLAT",
+       "size": 92,
+       "tag": "a"
+      },
+      "left": 38,
+      "right": 38,
+      "textLeft": 38,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Santal No. 03",
+      "size": 80,
+      "top": 298,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 417,
+      "n": 4
+     },
+     {
+      "x": 38,
+      "n": 1
+     },
+     {
+      "x": 456,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 6,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.9,
+    0.74,
+    0.89
+   ],
+   "motion": {
+    "elements": 4,
+    "css": 1,
+    "transitions": 2,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 2514,
+     "screens": 3,
+     "words": 132,
+     "img": 3,
+     "video": 0,
+     "canvas": 1,
+     "svg": 0,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "santal-detail-mobile.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "MAISON ÉCLAT PARFUMS",
+     "words": 3,
+     "chars": 20,
+     "lines": 2,
+     "size": 21,
+     "vw": 5.4,
+     "font": "display",
+     "weight": 400,
+     "tracking": 0.075,
+     "leading": 1,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.43,
+     "top": 24,
+     "mixedFonts": [
+      "display",
+      "body"
+     ],
+     "tag": "a",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Santal No. 03",
+     "words": 3,
+     "lines": 2,
+     "size": 77,
+     "font": "display"
+    },
+    "headings": [
+     {
+      "text": "Santal No. 03",
+      "words": 3,
+      "chars": 13,
+      "lines": 2,
+      "size": 77,
+      "vw": 19.7,
+      "font": "display",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 825,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Warmth, held close.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "display",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 956,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Cardamom & Fig leaf",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1223,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "↗",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "body",
+      "weight": 400,
+      "tracking": 0.009,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.06,
+      "top": 1563,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Another atmosphere.",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 43,
+      "vw": 11,
+      "font": "display",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1703,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "NO. 01 Obsidian The quiet after dark.",
+      "words": 7,
+      "chars": 37,
+      "lines": 3,
+      "size": 34,
+      "vw": 8.7,
+      "font": "display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.31,
+      "top": 1831,
+      "mixedFonts": [
+       "display",
+       "body"
+      ],
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "NO. 02 Neroli A little closer to light.",
+      "words": 8,
+      "chars": 39,
+      "lines": 3,
+      "size": 34,
+      "vw": 8.7,
+      "font": "display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.32,
+      "top": 2071,
+      "mixedFonts": [
+       "display",
+       "body"
+      ],
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "MAISON ÉCLAT",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 46,
+      "vw": 11.8,
+      "font": "display",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 2344,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 3,
+     "over2Lines": 2,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 2
+    },
+    "type": {
+     "families": [
+      {
+       "family": "body",
+       "share": 0.86,
+       "mono": false
+      },
+      {
+       "family": "display",
+       "share": 0.14,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      13,
+      14,
+      16,
+      20,
+      21,
+      22,
+      23,
+      28,
+      30,
+      34,
+      43,
+      46,
+      77
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "body",
+      "size": 16,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15
+     },
+     "measureChars": 43,
+     "max": {
+      "size": 77,
+      "vw": 19.7,
+      "font": "display",
+      "text": "Santal"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 1,
+     "microLabelShare": 0.039,
+     "microSamples": [
+      "COLLECTION 01 · EAU DE PARFUM"
+     ],
+     "upperShare": 0.1,
+     "centerShare": 0.1,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "COLLECTION 01 · EAU DE PARFUM",
+      "above": "Santal No. 03",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 784
+     },
+     {
+      "text": "top notes",
+      "above": "Cardamom & Fig leaf",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 14,
+      "top": 1167
+     }
+    ],
+    "numbered": [
+     {
+      "text": "No. 03",
+      "size": 23,
+      "top": 909
+     },
+     {
+      "text": "NO. 01",
+      "size": 13,
+      "top": 1831
+     },
+     {
+      "text": "NO. 02",
+      "size": 13,
+      "top": 2071
+     }
+    ],
+    "color": {
+     "bodyBg": "#11120f",
+     "bodyBgHsl": {
+      "h": 80,
+      "s": 0.09,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#191c17",
+       "top": 0,
+       "hsl": {
+        "h": 96,
+        "s": 0.1,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#261c16",
+       "top": 189,
+       "hsl": {
+        "h": 23,
+        "s": 0.27,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f3efe6",
+       "share": 0.6
+      },
+      {
+       "color": "#b7b1a5",
+       "share": 0.38
+      },
+      {
+       "color": "#11120f",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#f3efe6",
+      "hsl": {
+       "h": 42,
+       "s": 0.35,
+       "l": 0.93
+      },
+      "fg": "#11120f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 47,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Reset view"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.product-inspector → radial-gradient(47% 11% at 50% 83%, rgb(165, 94, 44) 0%, rgb(95, 55, 32) 40%, rgba(0, 0, 0, 0) 100%), radial-g"
+     ],
+     "gradientText": 0,
+     "hairlines": 4,
+     "hairlineSamples": [
+      "details 342px",
+      "details 342px",
+      "details 342px",
+      "a.text-link 255px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.45
+     },
+     {
+      "type": "canvas",
+      "ratio": 0.45
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 96,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "display",
+     "body",
+     "body fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 2514,
+    "margins": {
+     "left": 24,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "div.product-visual",
+      "tag": "div",
+      "top": 189,
+      "height": 550,
+      "words": 12,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 24,
+      "textLeft": 89,
+      "textRight": 89,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.product-information",
+      "tag": "div",
+      "top": 749,
+      "height": 889,
+      "words": 72,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Santal",
+       "size": 77,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 43,
+      "textLeft": 24,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#other-compositions.other-compositions",
+      "tag": "section",
+      "top": 1703,
+      "height": 531,
+      "words": 15,
+      "media": 2,
+      "middle": 12,
+      "heading": {
+       "text": "Obsidian",
+       "size": 34,
+       "tag": "span"
+      },
+      "left": 39,
+      "right": 99,
+      "textLeft": 166,
+      "textRight": 99,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 2294,
+      "height": 220,
+      "words": 15,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "MAISON ÉCLAT",
+       "size": 46,
+       "tag": "a"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Santal No. 03",
+      "size": 77,
+      "top": 825,
+      "firstScreen": false
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 5
+     },
+     {
+      "x": 62,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 6,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1440,
+   "message": "2 headline(s) wrap past two lines at 1440px: \"NO. 01 Obsidian The quiet after dark.\" → 3 lines (7 words, 38px); \"NO. 02 Neroli A little closer to light.\" → 3 lines (8 words, 38px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "mixed-font-headline",
+   "width": 1440,
+   "message": "2 headline(s) switch typeface or to italic mid-line (the \"one italic serif word\" move).",
+   "fix": "Set the whole headline in one face. Emphasis comes from the words.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "1 eyebrow/kicker label(s) above headings: \"COLLECTION 01 · EAU DE PARFUM\" above \"Santal No. 03\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "numbering",
+   "width": 1440,
+   "message": "Decorative index numbers: \"No. 03\", \"01\", \"02\", \"03\", \"NO. 01\", \"NO. 02\"",
+   "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "1 tiny uppercase letter-spaced label(s): \"COLLECTION 01 · EAU DE PARFUM\"",
+   "fix": "Prefer sentence case at body size.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "1 gradient fill(s): div.product-inspector → radial-gradient(47% 11% at 50% 83%, rgb(165, 94, 44) 0%, rgb(95, 55, 32) 40%, rgba(0, 0, 0, 0) 100%), radial-g",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "2 thin rule(s)/divider line(s): div.tab-list 490px | a.text-link 255px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (button #f3efe6, text #f3efe6).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "14 different font sizes (11, 13, 14, 16, 20, 22, 24, 25, 32, 36, 38, 72, 101, 173).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 3 picture(s) on the page (3 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 1440,
+   "message": "The h1 is a bare name (\"Santal No. 03\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 4 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 768,
+   "message": "2 headline(s) wrap past two lines at 768px: \"NO. 01 Obsidian The quiet after dark.\" → 3 lines (7 words, 30px); \"NO. 02 Neroli A little closer to light.\" → 3 lines (8 words, 30px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 32px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "2 headline(s) wrap past two lines at 390px: \"NO. 01 Obsidian The quiet after dark.\" → 3 lines (7 words, 34px); \"NO. 02 Neroli A little closer to light.\" → 3 lines (8 words, 34px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "no-title",
+   "width": 390,
+   "message": "The h1 (\"Santal No. 03\") is not on the first screen (it starts 825px down).",
+   "fix": "The title belongs on the first screen, where a visitor decides whether to stay."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/macbookprom4/Projects/website/maison-eclat/.taste-skill/lighting-final/desktop-fold.jpg",
+   "pages": [
+    "/Users/macbookprom4/Projects/website/maison-eclat/.taste-skill/lighting-final/desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/macbookprom4/Projects/website/maison-eclat/.taste-skill/lighting-final/tablet-fold.jpg",
+   "pages": [
+    "/Users/macbookprom4/Projects/website/maison-eclat/.taste-skill/lighting-final/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/macbookprom4/Projects/website/maison-eclat/.taste-skill/lighting-final/mobile-fold.jpg",
+   "pages": [
+    "/Users/macbookprom4/Projects/website/maison-eclat/.taste-skill/lighting-final/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

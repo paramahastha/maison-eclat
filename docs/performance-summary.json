@@ -1,0 +1,186 @@
+[
+  {
+    "profile": "desktop",
+    "lcp": 240,
+    "cls": 0,
+    "sample": {
+      "seconds": 4.002100000008941,
+      "renderedFrames": 450,
+      "renderedFps": 112.44096849129075,
+      "drawCalls": 10782,
+      "rafMedianMs": 8.300000000000182,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4, Unspecified Version)"
+    },
+    "interactions": {
+      "maxEventDurationMs": 40,
+      "eventSamples": 12,
+      "events": [
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 5870,
+          "startTime": 6465.79999999702
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 5870,
+          "startTime": 6466.70000000298
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 5870,
+          "startTime": 6466.70000000298
+        },
+        {
+          "name": "pointerdown",
+          "duration": 32,
+          "interactionId": 5877,
+          "startTime": 6510.5999999940395
+        },
+        {
+          "name": "pointerup",
+          "duration": 32,
+          "interactionId": 5877,
+          "startTime": 6510.5999999940395
+        },
+        {
+          "name": "click",
+          "duration": 32,
+          "interactionId": 5877,
+          "startTime": 6510.5999999940395
+        },
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 5884,
+          "startTime": 6542.79999999702
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 5884,
+          "startTime": 6542.9000000059605
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 5884,
+          "startTime": 6542.9000000059605
+        },
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 5891,
+          "startTime": 6586.70000000298
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 5891,
+          "startTime": 6586.70000000298
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 5891,
+          "startTime": 6586.70000000298
+        }
+      ],
+      "cls": 0
+    }
+  },
+  {
+    "profile": "mobile-constrained",
+    "lcp": 656,
+    "cls": 0.0019457350791089324,
+    "sample": {
+      "seconds": 4.0075999999940395,
+      "renderedFrames": 479,
+      "renderedFps": 119.52290647787015,
+      "drawCalls": 14849,
+      "rafMedianMs": 8.300000000000182,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4, Unspecified Version)"
+    },
+    "interactions": {
+      "maxEventDurationMs": 56,
+      "eventSamples": 12,
+      "events": [
+        {
+          "name": "pointerdown",
+          "duration": 56,
+          "interactionId": 667,
+          "startTime": 10513
+        },
+        {
+          "name": "pointerup",
+          "duration": 56,
+          "interactionId": 667,
+          "startTime": 10513
+        },
+        {
+          "name": "click",
+          "duration": 56,
+          "interactionId": 667,
+          "startTime": 10513
+        },
+        {
+          "name": "pointerdown",
+          "duration": 24,
+          "interactionId": 674,
+          "startTime": 10588.10000000894
+        },
+        {
+          "name": "pointerup",
+          "duration": 24,
+          "interactionId": 674,
+          "startTime": 10588.10000000894
+        },
+        {
+          "name": "click",
+          "duration": 24,
+          "interactionId": 674,
+          "startTime": 10588.10000000894
+        },
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 681,
+          "startTime": 10629.79999999702
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 681,
+          "startTime": 10629.79999999702
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 681,
+          "startTime": 10629.79999999702
+        },
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 688,
+          "startTime": 10682.10000000894
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 688,
+          "startTime": 10682.10000000894
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 688,
+          "startTime": 10682.10000000894
+        }
+      ],
+      "cls": 0.0019457350791089324
+    }
+  }
+]

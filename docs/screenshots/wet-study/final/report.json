@@ -1,0 +1,45 @@
+{
+  "layouts": [
+    {
+      "name": "desktop",
+      "overflow": false,
+      "titleTop": 285.796875,
+      "canvases": 1
+    },
+    {
+      "name": "tablet",
+      "overflow": false,
+      "titleTop": 285.796875,
+      "canvases": 1
+    },
+    {
+      "name": "phone",
+      "overflow": false,
+      "titleTop": 221.59375,
+      "canvases": 1
+    },
+    {
+      "name": "wide",
+      "overflow": false,
+      "titleTop": 285.796875,
+      "canvases": 1
+    },
+    {
+      "name": "reduced",
+      "overflow": false,
+      "titleTop": 221.59375,
+      "canvases": 0
+    }
+  ],
+  "handoffs": [
+    {
+      "name": "desktop",
+      "meanChannelDifference": 0.9655396696177199
+    },
+    {
+      "name": "phone",
+      "meanChannelDifference": 1.1540641090227075
+    }
+  ],
+  "errors": []
+}

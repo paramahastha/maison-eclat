@@ -1,0 +1,36 @@
+[
+  {
+    "noFloat": false,
+    "errors": [],
+    "paused": {
+      "draws": 0,
+      "rect": {
+        "x": 72,
+        "y": -898.5,
+        "width": 633.59375,
+        "height": 620,
+        "top": -898.5,
+        "right": 705.59375,
+        "bottom": -278.5,
+        "left": 72
+      }
+    }
+  },
+  {
+    "noFloat": true,
+    "errors": [],
+    "paused": {
+      "draws": 0,
+      "rect": {
+        "x": 72,
+        "y": -898.5,
+        "width": 633.59375,
+        "height": 620,
+        "top": -898.5,
+        "right": 705.59375,
+        "bottom": -278.5,
+        "left": 72
+      }
+    }
+  }
+]

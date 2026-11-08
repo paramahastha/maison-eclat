@@ -1,0 +1,47 @@
+/Users/macbookprom4/Projects/website/maison-eclat/scripts/blender/generate_perfume.py:24: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name); m.use_nodes=True
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+12:56:08 | INFO: Starting glTF 2.0 export
+12:56:08 | INFO: Extracting primitive: Cube.004
+12:56:08 | INFO: Primitives created: 1
+12:56:08 | INFO: Extracting primitive: Cube.006
+12:56:08 | INFO: Primitives created: 1
+12:56:08 | INFO: Extracting primitive: Cube.005
+12:56:08 | INFO: Primitives created: 1
+12:56:08 | INFO: Extracting primitive: Cube.001
+12:56:08 | INFO: Primitives created: 1
+12:56:08 | INFO: Extracting primitive: Plane
+12:56:08 | INFO: Primitives created: 1
+12:56:08 | INFO: Extracting primitive: Cube.003
+12:56:08 | INFO: Primitives created: 1
+12:56:08 | INFO: Extracting primitive: Cube.008
+12:56:08 | INFO: Primitives created: 1
+12:56:08 | INFO: Extracting primitive: Cube.009
+12:56:08 | INFO: Primitives created: 1
+12:56:08 | INFO: Extracting primitive: Cube.010
+12:56:08 | INFO: Primitives created: 1
+12:56:08 | INFO: Extracting primitive: Cube.011
+12:56:08 | INFO: Primitives created: 1
+12:56:08 | INFO: Extracting primitive: Cube.012
+12:56:08 | INFO: Primitives created: 1
+12:56:08 | INFO: Extracting primitive: Cube.013
+12:56:08 | INFO: Primitives created: 1
+12:56:08 | INFO: Extracting primitive: Cube.014
+12:56:08 | INFO: Primitives created: 1
+12:56:08 | INFO: Extracting primitive: Cube.015
+12:56:08 | INFO: Primitives created: 1
+12:56:08 | INFO: Extracting primitive: Cube.016
+12:56:08 | INFO: Primitives created: 1
+12:56:08 | INFO: Extracting primitive: Cube.007
+12:56:08 | INFO: Primitives created: 1
+12:56:08 | INFO: Finished glTF 2.0 export in 0.022715091705322266 s
+00:12.965  render           | Saved: '/Users/macbookprom4/Projects/website/maison-eclat/public/posters/obsidian.png'
+00:26.807  render           | Saved: '/Users/macbookprom4/Projects/website/maison-eclat/public/posters/neroli.png'
+00:38.689  render           | Saved: '/Users/macbookprom4/Projects/website/maison-eclat/public/posters/santal.png'
+
+Info: Saved as "maison-bottle.blend"
+Maison Éclat generation complete.
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit

@@ -1,0 +1,5 @@
+desktop: no <section class="scene"> on the page
+phone: no <section class="scene"> on the page
+reduced  7 screens → .taste-skill/scenes/reduced-desktop.jpg
+
+RESULT: every scene ran. Now look at every sheet: does each frame read, and is the scene as bold as it should be?

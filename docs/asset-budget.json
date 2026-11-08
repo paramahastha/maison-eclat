@@ -1,0 +1,151 @@
+{
+  "assets": [
+    {
+      "path": "public/models/maison-bottle.blend",
+      "bytes": 171009
+    },
+    {
+      "path": "public/models/maison-bottle.glb",
+      "bytes": 234436
+    },
+    {
+      "path": "public/posters/neroli-detail-mobile.webp",
+      "bytes": 25596
+    },
+    {
+      "path": "public/posters/neroli-detail.webp",
+      "bytes": 56538
+    },
+    {
+      "path": "public/posters/neroli-live.webp",
+      "bytes": 82580
+    },
+    {
+      "path": "public/posters/neroli.png",
+      "bytes": 897102
+    },
+    {
+      "path": "public/posters/neroli.svg",
+      "bytes": 2377
+    },
+    {
+      "path": "public/posters/neroli.webp",
+      "bytes": 39590
+    },
+    {
+      "path": "public/posters/obsidian-detail-mobile.webp",
+      "bytes": 21200
+    },
+    {
+      "path": "public/posters/obsidian-detail.webp",
+      "bytes": 46470
+    },
+    {
+      "path": "public/posters/obsidian-live.webp",
+      "bytes": 82832
+    },
+    {
+      "path": "public/posters/obsidian.png",
+      "bytes": 895114
+    },
+    {
+      "path": "public/posters/obsidian.svg",
+      "bytes": 2379
+    },
+    {
+      "path": "public/posters/obsidian.webp",
+      "bytes": 42482
+    },
+    {
+      "path": "public/posters/santal-detail-mobile.webp",
+      "bytes": 23672
+    },
+    {
+      "path": "public/posters/santal-detail.webp",
+      "bytes": 52240
+    },
+    {
+      "path": "public/posters/santal-live.webp",
+      "bytes": 84416
+    },
+    {
+      "path": "public/posters/santal.png",
+      "bytes": 896388
+    },
+    {
+      "path": "public/posters/santal.svg",
+      "bytes": 2377
+    },
+    {
+      "path": "public/posters/santal.webp",
+      "bytes": 41784
+    },
+    {
+      "path": "public/textures/botanical.svg",
+      "bytes": 5631
+    },
+    {
+      "path": "public/textures/grain.svg",
+      "bytes": 252
+    },
+    {
+      "path": "public/textures/label-neroli.png",
+      "bytes": 27057
+    },
+    {
+      "path": "public/textures/label-neroli.svg",
+      "bytes": 1035
+    },
+    {
+      "path": "public/textures/label-obsidian.png",
+      "bytes": 28452
+    },
+    {
+      "path": "public/textures/label-obsidian.svg",
+      "bytes": 1037
+    },
+    {
+      "path": "public/textures/label-santal.png",
+      "bytes": 27527
+    },
+    {
+      "path": "public/textures/label-santal.svg",
+      "bytes": 1035
+    },
+    {
+      "path": "public/textures/light-study.webp",
+      "bytes": 10912
+    },
+    {
+      "path": "public/textures/studio-water-highlights.webp",
+      "bytes": 14850
+    },
+    {
+      "path": "public/textures/studio-water.webp",
+      "bytes": 3774
+    },
+    {
+      "path": "public/branding/apple-touch-icon.png",
+      "bytes": 2838
+    },
+    {
+      "path": "public/branding/favicon.svg",
+      "bytes": 228
+    },
+    {
+      "path": "public/branding/og.jpg",
+      "bytes": 36988
+    },
+    {
+      "path": "public/fonts/cormorant-garamond-LICENSE.txt",
+      "bytes": 4504
+    },
+    {
+      "path": "public/fonts/manrope-LICENSE.txt",
+      "bytes": 4383
+    }
+  ],
+  "totalBytes": 3871085,
+  "modelBytes": 234436,
+  "modelNodes": 16
+}

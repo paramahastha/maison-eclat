@@ -1,0 +1,97 @@
+[
+  {
+    "width": 1440,
+    "p": 0,
+    "selected": "obsidian"
+  },
+  {
+    "width": 1440,
+    "p": 0.5,
+    "selected": "neroli"
+  },
+  {
+    "width": 1440,
+    "p": 1,
+    "selected": "santal"
+  },
+  {
+    "width": 1440,
+    "errors": []
+  },
+  {
+    "width": 375,
+    "p": 0,
+    "selected": "obsidian"
+  },
+  {
+    "width": 375,
+    "p": 0.5,
+    "selected": "obsidian"
+  },
+  {
+    "width": 375,
+    "p": 1,
+    "selected": "obsidian"
+  },
+  {
+    "width": 375,
+    "errors": []
+  },
+  {
+    "width": 768,
+    "p": 0,
+    "selected": "obsidian"
+  },
+  {
+    "width": 768,
+    "p": 0.5,
+    "selected": "obsidian"
+  },
+  {
+    "width": 768,
+    "p": 1,
+    "selected": "obsidian"
+  },
+  {
+    "width": 768,
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "p": 0,
+    "selected": "obsidian"
+  },
+  {
+    "width": 1024,
+    "p": 0.5,
+    "selected": "neroli"
+  },
+  {
+    "width": 1024,
+    "p": 1,
+    "selected": "santal"
+  },
+  {
+    "width": 1024,
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "p": 0,
+    "selected": "obsidian"
+  },
+  {
+    "width": 1920,
+    "p": 0.5,
+    "selected": "neroli"
+  },
+  {
+    "width": 1920,
+    "p": 1,
+    "selected": "santal"
+  },
+  {
+    "width": 1920,
+    "errors": []
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "desktop",
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "tablet",
+    "errors": [],
+    "overflow": false
+  },
+  {
+    "name": "phone",
+    "errors": [],
+    "overflow": false
+  }
+]

@@ -1,0 +1,585 @@
+
+Running 9 tests using 3 workers
+
+
+
+
+[1/9] [chromium] › tests/e2e/experience.spec.ts:4:1 › complete story, anchors, fragrance selection, product deep links and 404
+[2/9] [chromium] › tests/e2e/experience.spec.ts:42:1 › reduced motion preserves content, notes and all variant destinations without a canvas
+[3/9] [chromium] › tests/e2e/experience.spec.ts:28:1 › menu traps focus, closes with Escape and navigation, and restores focus
+[4/9] [chromium] › tests/e2e/experience.spec.ts:53:1 › WebGL unavailable and model failures retain useful original posters
+[5/9] [chromium] › tests/e2e/experience.spec.ts:66:1 › no horizontal overflow and no serious accessibility violations
+[6/9] [chromium] › tests/e2e/experience.spec.ts:85:1 › server content is usable without JavaScript
+[7/9] [chromium] › tests/e2e/webgl.spec.ts:5:1 › one home canvas survives chapter changes and context loss reveals the poster
+[8/9] [chromium] › tests/e2e/webgl.spec.ts:19:1 › bottle inspection supports controls, horizontal drag and reset
+[9/9] [chromium] › tests/e2e/webgl.spec.ts:32:1 › failed model request falls back without losing the product page
+  1) [chromium] › tests/e2e/experience.spec.ts:85:1 › server content is usable without JavaScript ──
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('noscript').filter({ hasText: 'Top:' })
+    Expected substring: "Amberwood"
+    Timeout: 10000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toContainText" locator('noscript').filter({ hasText: 'Top:' }) with timeout 10000ms
+      - waiting for locator('noscript').filter({ hasText: 'Top:' })
+
+
+      86 |   const context = await browser.newContext({javaScriptEnabled:false}); const page=await context.newPage();
+      87 |   await page.goto(baseURL!); await expect(page.getByRole('heading',{level:1})).toContainText('A presence');
+    > 88 |   await expect(page.locator('noscript').filter({hasText:'Top:'})).toContainText('Amberwood');
+         |                                                                   ^
+      89 |   await page.locator('noscript').getByRole('link',{name:/Santal/}).click();
+      90 |   await expect(page.getByRole('heading',{level:1})).toContainText('Santal'); await context.close();
+      91 | });
+        at /Users/macbookprom4/Projects/website/maison-eclat/tests/e2e/experience.spec.ts:88:67
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/experience-server-content-is-usable-without-JavaScript-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/experience-server-content-is-usable-without-JavaScript-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/experience-server-content-is-usable-without-JavaScript-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/experience-server-content-is-usable-without-JavaScript-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+  1 failed
+    [chromium] › tests/e2e/experience.spec.ts:85:1 › server content is usable without JavaScript ───
+  8 passed (15.4s)
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/26.12.0/bin/node",
+      "/Users/macbookprom4/Projects/website/maison-eclat/node_modules/.bin/playwright",
+      "test",
+      "--project=chromium",
+      "--reporter=line,json"
+    ],
+    "configFile": "/Users/macbookprom4/Projects/website/maison-eclat/playwright.config.ts",
+    "rootDir": "/Users/macbookprom4/Projects/website/maison-eclat/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/macbookprom4/Projects/website/maison-eclat/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/macbookprom4/Projects/website/maison-eclat/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "/Users/macbookprom4/Projects/website/maison-eclat/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "/Users/macbookprom4/Projects/website/maison-eclat/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "/Users/macbookprom4/Projects/website/maison-eclat/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/macbookprom4/Projects/website/maison-eclat/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "/Users/macbookprom4/Projects/website/maison-eclat/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/macbookprom4/Projects/website/maison-eclat/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/macbookprom4/Projects/website/maison-eclat/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "name": "chromium",
+        "testDir": "/Users/macbookprom4/Projects/website/maison-eclat/tests/e2e",
+        "snapshotDir": "/Users/macbookprom4/Projects/website/maison-eclat/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 45000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3000",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.8127.18 Safari/537.36",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "line"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.0",
+    "workers": 3,
+    "webServer": {
+      "command": "npm run dev -- --hostname 127.0.0.1",
+      "url": "http://127.0.0.1:3000",
+      "reuseExistingServer": true,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "experience.spec.ts",
+      "file": "experience.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "complete story, anchors, fragrance selection, product deep links and 404",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2561,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-07T06:05:18.872Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-6c20605ccc9a977b04a8",
+          "file": "experience.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "menu traps focus, closes with Escape and navigation, and restores focus",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1058,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-07T06:05:18.872Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-d7fb89e45b61d06d27f1",
+          "file": "experience.spec.ts",
+          "line": 28,
+          "column": 1
+        },
+        {
+          "title": "reduced motion preserves content, notes and all variant destinations without a canvas",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 876,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-07T06:05:18.872Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-00ec3af5da87f53ea436",
+          "file": "experience.spec.ts",
+          "line": 42,
+          "column": 1
+        },
+        {
+          "title": "WebGL unavailable and model failures retain useful original posters",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 470,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-07T06:05:20.048Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-fe82b7289082edfb9a4f",
+          "file": "experience.spec.ts",
+          "line": 53,
+          "column": 1
+        },
+        {
+          "title": "no horizontal overflow and no serious accessibility violations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1680,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-07T06:05:20.229Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-a7203d9739b6904d4de5",
+          "file": "experience.spec.ts",
+          "line": 66,
+          "column": 1
+        },
+        {
+          "title": "server content is usable without JavaScript",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "failed",
+                  "duration": 10149,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('noscript').filter({ hasText: 'Top:' })\nExpected substring: \u001b[32m\"Amberwood\"\u001b[39m\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('noscript').filter({ hasText: 'Top:' }) with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('noscript').filter({ hasText: 'Top:' })\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('noscript').filter({ hasText: 'Top:' })\nExpected substring: \u001b[32m\"Amberwood\"\u001b[39m\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('noscript').filter({ hasText: 'Top:' }) with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('noscript').filter({ hasText: 'Top:' })\u001b[22m\n\n    at /Users/macbookprom4/Projects/website/maison-eclat/tests/e2e/experience.spec.ts:88:67",
+                    "location": {
+                      "file": "/Users/macbookprom4/Projects/website/maison-eclat/tests/e2e/experience.spec.ts",
+                      "column": 67,
+                      "line": 88
+                    },
+                    "snippet": " \u001b[90m 86 |\u001b[39m   \u001b[36mconst\u001b[39m context \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mnewContext({javaScriptEnabled\u001b[33m:\u001b[39m\u001b[36mfalse\u001b[39m})\u001b[33m;\u001b[39m \u001b[36mconst\u001b[39m page\u001b[33m=\u001b[39m\u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mnewPage()\u001b[33m;\u001b[39m\n \u001b[90m 87 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(baseURL\u001b[33m!\u001b[39m)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'heading'\u001b[39m\u001b[33m,\u001b[39m{level\u001b[33m:\u001b[39m\u001b[35m1\u001b[39m}))\u001b[33m.\u001b[39mtoContainText(\u001b[32m'A presence'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 88 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'noscript'\u001b[39m)\u001b[33m.\u001b[39mfilter({hasText\u001b[33m:\u001b[39m\u001b[32m'Top:'\u001b[39m}))\u001b[33m.\u001b[39mtoContainText(\u001b[32m'Amberwood'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 89 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'noscript'\u001b[39m)\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m{name\u001b[33m:\u001b[39m\u001b[35m/Santal/\u001b[39m})\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 90 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'heading'\u001b[39m\u001b[33m,\u001b[39m{level\u001b[33m:\u001b[39m\u001b[35m1\u001b[39m}))\u001b[33m.\u001b[39mtoContainText(\u001b[32m'Santal'\u001b[39m)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m context\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\n \u001b[90m 91 |\u001b[39m })\u001b[33m;\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/macbookprom4/Projects/website/maison-eclat/tests/e2e/experience.spec.ts",
+                        "column": 67,
+                        "line": 88
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('noscript').filter({ hasText: 'Top:' })\nExpected substring: \u001b[32m\"Amberwood\"\u001b[39m\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" locator('noscript').filter({ hasText: 'Top:' }) with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('noscript').filter({ hasText: 'Top:' })\u001b[22m\n\n\n  86 |   const context = await browser.newContext({javaScriptEnabled:false}); const page=await context.newPage();\n  87 |   await page.goto(baseURL!); await expect(page.getByRole('heading',{level:1})).toContainText('A presence');\n> 88 |   await expect(page.locator('noscript').filter({hasText:'Top:'})).toContainText('Amberwood');\n     |                                                                   ^\n  89 |   await page.locator('noscript').getByRole('link',{name:/Santal/}).click();\n  90 |   await expect(page.getByRole('heading',{level:1})).toContainText('Santal'); await context.close();\n  91 | });\n    at /Users/macbookprom4/Projects/website/maison-eclat/tests/e2e/experience.spec.ts:88:67"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-07T06:05:20.526Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/macbookprom4/Projects/website/maison-eclat/test-results/experience-server-content-is-usable-without-JavaScript-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/macbookprom4/Projects/website/maison-eclat/test-results/experience-server-content-is-usable-without-JavaScript-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/macbookprom4/Projects/website/maison-eclat/test-results/experience-server-content-is-usable-without-JavaScript-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/macbookprom4/Projects/website/maison-eclat/tests/e2e/experience.spec.ts",
+                    "column": 67,
+                    "line": 88
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-b7aca39c0d758c043b70",
+          "file": "experience.spec.ts",
+          "line": 85,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "webgl.spec.ts",
+      "file": "webgl.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "one home canvas survives chapter changes and context loss reveals the poster",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7743,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-07T06:05:21.733Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd60d04cfe07ef3f33e4-ffa741e4a2d3d59b63e8",
+          "file": "webgl.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "bottle inspection supports controls, horizontal drag and reset",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 11867,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-07T06:05:21.922Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd60d04cfe07ef3f33e4-b352da78126962ef811a",
+          "file": "webgl.spec.ts",
+          "line": 19,
+          "column": 1
+        },
+        {
+          "title": "failed model request falls back without losing the product page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1123,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-07T06:05:29.486Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd60d04cfe07ef3f33e4-0be6bbf253bc5f22b7a2",
+          "file": "webgl.spec.ts",
+          "line": 32,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-07T06:05:18.464Z",
+    "duration": 15365.909,
+    "expected": 8,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

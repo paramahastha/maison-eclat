@@ -8,7 +8,7 @@ Previous bottle continuity fix: the opening poster was captured from the live GL
 
 Latest scroll upgrade (2026-11-07): [current validation and visual evidence](motion-upgrade/QA_REPORT.md). The results below document the preceding baseline.
 
-Date: 2026-11-07, Asia/Jakarta. Authority: `CODEX_LUXURY_MOTION_MASTER_PLAN.md`. The project is a local, fictional concept experience. No public deployment has occurred.
+Date: 2026-11-07, Asia/Jakarta. The project is a local, fictional concept experience. No public deployment has occurred.
 
 ## Executed checks
 

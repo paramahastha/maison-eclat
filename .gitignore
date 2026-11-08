@@ -10,3 +10,6 @@ test-results/
 !.env.example
 .taste-skill/inspect/
 .taste-skill/scenes/
+
+# Retired local planning document
+/CODEX_LUXURY_MOTION_MASTER_PLAN.md

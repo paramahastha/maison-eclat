@@ -2,7 +2,7 @@
 
 An original fictional fragrance experience: six editorial chapters, three compositions, an original Blender bottle, scroll-driven WebGL, and accessible product inspection. **Concept experience — no purchases processed.**
 
-The authoritative requirements are in [the master plan](CODEX_LUXURY_MOTION_MASTER_PLAN.md). The latest scroll upgrade is documented in [the motion brief](docs/motion-upgrade/BRIEF.md) and [its QA evidence](docs/motion-upgrade/QA_REPORT.md). Current implementation and validation evidence are in [the implementation log](docs/IMPLEMENTATION_LOG.md), [QA report](docs/QA_REPORT.md), and [performance report](docs/PERFORMANCE_REPORT.md).
+Project requirements are documented in the [product brief](docs/PRD.md). The latest scroll upgrade is documented in [the motion brief](docs/motion-upgrade/BRIEF.md) and [its QA evidence](docs/motion-upgrade/QA_REPORT.md). Current implementation and validation evidence are in [the implementation log](docs/IMPLEMENTATION_LOG.md), [QA report](docs/QA_REPORT.md), and [performance report](docs/PERFORMANCE_REPORT.md).
 
 ## Run locally
 

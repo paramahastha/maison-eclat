@@ -1,6 +1,6 @@
 # Maison Éclat implementation guidance
 
-Read `CODEX_LUXURY_MOTION_MASTER_PLAN.md` and `docs/IMPLEMENTATION_LOG.md` before continuing. The master plan is authoritative. The site is an original fictional fragrance concept, with no commerce or ingredient/manufacturing claims.
+Read `docs/IMPLEMENTATION_LOG.md` and the project documentation before continuing. The site is an original fictional fragrance concept, with no commerce or ingredient/manufacturing claims.
 
 - Preserve unrelated user work, including the existing deletions of Spec Kit files. Do not restore or commit those changes incidentally.
 - Build in vertical phases: implement, run the relevant checks, inspect the browser, fix, log evidence. Never claim an unexecuted check passed.

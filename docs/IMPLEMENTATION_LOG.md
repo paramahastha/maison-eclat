@@ -1,3 +1,9 @@
+## Repository housekeeping — 2026-11-08
+
+- Removed the retired master plan, ignored its root path, and updated active documentation references. Retained documented visual and test evidence.
+- Validation: `git diff --check` and repository status inspection; no application code changed.
+- Next: continue from the current handoff below.
+
 # Implementation log
 Updated: 2026-11-08 (Asia/Jakarta)
 Current phase: Fragrance atmospheres — validated

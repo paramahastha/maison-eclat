@@ -1,6 +1,6 @@
 # Maison Éclat product requirements
 
-Authority: `CODEX_LUXURY_MOTION_MASTER_PLAN.md`. Original fictional fragrance house; local concept experience, no purchases processed.
+Original fictional fragrance house; local concept experience, no purchases processed.
 
 Visual explorers follow six chapters: Encounter → Origin → Composition → Collection → Ritual → Invitation. Product browsers select Obsidian No. 01, Neroli No. 02 or Santal No. 03 and open a direct-linkable detail route with inspectable bottle and note composition. Keyboard, mobile, reduced-motion and WebGL-disabled users receive equivalent content and controls.
 
